@@ -27,9 +27,9 @@ by Rob Denton Sept. 27, 2014. -->
 	<!-- [END] Zeppelin -->
 
 	<!-- DataTables CSS -->
-	<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.2/css/jquery.dataTables.css">
+	<link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.2/css/jquery.dataTables.css">
 	<!-- Responsive DataTables CSS -->
-	<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/responsive/1.0.1/css/dataTables.responsive.css">
+	<link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/responsive/1.0.1/css/dataTables.responsive.css">
 
 	<link rel="stylesheet" href="bat_styles.css">
 
@@ -262,11 +262,9 @@ by Rob Denton Sept. 27, 2014. -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 	<!-- DataTables JS -->
-	<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.2/js/jquery.dataTables.js"></script>
+	<script charset="utf8" src="http://cdn.datatables.net/1.10.2/js/jquery.dataTables.js"></script>
 	<!-- Responsive DataTables JS -->
-	<script src="//cdn.datatables.net/responsive/1.0.1/js/dataTables.responsive.js"></script>
-	<!-- Sort on string values, not HTML -->
-	<script src="//cdn.datatables.net/plug-ins/1.10.9/sorting/num-html.js"></script>
+	<script src="http://cdn.datatables.net/responsive/1.0.1/js/dataTables.responsive.js"></script>
 
 	<script>
 		$(document).ready(function() {
@@ -274,6 +272,7 @@ by Rob Denton Sept. 27, 2014. -->
 				"ajax": 'harvestarray.json',
 				"paging": false,
 				"info": false,
+				"ordering": true,
 				"oLanguage": {
 					"sSearch": ""
 				},
